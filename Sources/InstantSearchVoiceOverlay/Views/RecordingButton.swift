@@ -115,7 +115,7 @@ private extension Bundle {
 @available(iOS 10.0, *)
 extension RecordingButton {
     func setimage(_ isRecording: Bool) {
-      let imageName = isRecording ? "mic-lg-active" : "mic-lg-inactive"
+      let imageName = isRecording ? "recorder_button" : "recorder_button"
       let recordingImage = UIImage(named: imageName, in: .voiceOverlayBundle, compatibleWith: nil)
       setBackgroundImage(recordingImage, for: .normal)
     }
